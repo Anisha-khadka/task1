@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+}
+
+/* header */
+
+.header {
+  margin: 2% 38%;
+}
+.header h1 {
+  display: flex;
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+  justify-content: center;
+  border: 1px solid #eff3f7;
+  border-radius: 5px;
+  background-color: #528bbf;
+}
+
+/* first container */
+/* 1.navbar */
+.containers {
+  background-color: #d9d9d9;
+  width: 100%;
+  height: 52.9vh;
+}
+.subcontainer0 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+}
+
+navbar {
+  width: 100%;
+  display: flex;
+
+  font-weight: 600;
+  font-size: 20px;
+}
+navbar ul {
+  display: flex;
+  list-style: none;
+}
+navbar ul li {
+  padding: 0px 30px;
+}
+.btn1 {
+  color: white;
+  background-color: black;
+  padding: 6px 26px;
+  border-radius: 5px;
+  margin-right: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.btn2 {
+  color: white;
+  background-color: #528bbf;
+  padding: 6px 20px;
+  border: 1px solid #528bbf;
+  border-radius: 5px;
+  margin-right: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* 2.content */
+.subcontainer1 {
+    width: 100%;
+  display: flex;
+  padding-top: 30px;
+}
+.subcontainer11 {
+  border: 2px solid #e3e7eb;
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-left:60px;
+  background-color: #71a8db;
+  width: 80%;
+  height: 33vh;
+  overflow: hidden;
+}
+.subcontainer12 {
+    padding-top: 20px;
+  border: 2px solid #ccdfff;
+  background-color: #ccdfff;
+  border-radius: 100% 55% 55% 50%;
+  width: 20%;
+}
+.subcontainer12 img{
+  width: 100%;
+}
+.first {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-left: 47px;
+  width: 100%;
+}
+
+
+.first div {
+  margin: 25px 30px;
+}
+.first input {
+  padding: 14px 35px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-left: 45px;
+}
+.fa-solid {
+  font-size: 20px;
+}
+label {
+    margin-left: 77px;
+    padding-top: 70px;
+  }
+.second {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  width: 100%;
+}
+.second input {
+  padding: 15px 30px;
+  margin: 4px 0px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+/* second container */
+
+.containers1 {
+    width: 100%;
+  display: flex;
+  height: 80vh;
+  justify-content: space-between;
+  
+  padding: 0px 100px;
+  margin: 0px 80px;
+  font-size: 29px;
+}
+.subcontainers0{
+  width: 100%;
+   padding-top: 260px;
+   
+}
+.subcontainers0 h1{
+    font-size: 40px;
+    padding: 2px;
+    font-weight:bold;
+}
+.containers1 button {
+  border: 1px solid rgb(240, 235, 235);
+  background-color: rgb(222, 217, 217);
+  border-radius: 20px;
+  padding: 5px;
+  margin: 20px;
+  font-weight: 500;
+}
+
+.containers1 ul {
+  color: gray;
+}
+.subcontainers1 {
+  width: 100%;
+
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.subcontainers1 div {
+  border: 2px solid white;
+  border-radius: 40px;
+  padding: 50px;
+  align-items: center;
+
+  background-color: #71a8db;
+}
+.subcontainers1 {
+  align-items: center;
+}
+.subcontainers1 h2 {
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* third container */
+.containers2{
+  width: 100%;
+}
+.containers2 h2 {
+  text-align: center;
+}
+.containers21 {
+    margin-top: 30px;
+  height: 40vh;
+  padding: 40px 0;
+  background-color: #d1d6e0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.containers21 img {
+  width: 100%;
+}
+
+.containers21 div {
+  display: flex;
+
+  flex-direction: column;
+}
+.containers21  h6  {
+padding-top: 10px;
+}
+
+
+/* footer */
+
+.footer{
+  width: 100%;
+    padding: 70px;
+    background-color: #71a8db;
+    font-weight: 600;
+    
+}
+.footer h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.footer p{
+    font-size: 20px;
+    padding-left: 18px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .first input {
+    padding: 14px 0px;
+   
+    margin-left: 0px;
+  }
+    .containers1{
+        /* 
+        margin: 0px;
+        padding: 0; */
+        height: 160vh;
+        flex-direction: column;
+    }
+}
