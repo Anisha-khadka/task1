@@ -8,7 +8,7 @@
 /* header */
 
 .header {
-  margin: 2% 38%;
+  margin: 2% 33%;
 }
 .header h1 {
   display: flex;
@@ -26,7 +26,7 @@
 .containers {
   background-color: #d9d9d9;
   width: 100%;
-  height: 52.9vh;
+  height: 55.9vh;
 }
 .subcontainer0 {
   width: 100%;
@@ -76,7 +76,7 @@ navbar ul li {
 .subcontainer11 {
   border: 2px solid #e3e7eb;
   border-radius: 15px;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-left:60px;
   background-color: #71a8db;
   width: 80%;
@@ -84,7 +84,7 @@ navbar ul li {
   overflow: hidden;
 }
 .subcontainer12 {
-    padding-top: 20px;
+    padding-top: 0px;
   border: 2px solid #ccdfff;
   background-color: #ccdfff;
   border-radius: 100% 55% 55% 50%;
@@ -117,16 +117,16 @@ navbar ul li {
 }
 label {
     margin-left: 77px;
-    padding-top: 70px;
+    
   }
 .second {
   display: flex;
   justify-content: space-around;
-  padding-top: 40px;
+  padding-top: 10px;
   width: 100%;
 }
 .second input {
-  padding: 15px 30px;
+  padding: 10px 20px;
   margin: 4px 0px;
   border: 1px solid white;
   border-radius: 10px;
@@ -137,16 +137,16 @@ label {
 .containers1 {
 
   display: flex;
-  height: 80vh;
+  height: 85vh;
   justify-content: space-between;
   
   padding: 0px 60px;
   margin: 0px 80px;
-  font-size: 29px;
+  font-size: 19px;
 }
 .subcontainers0{
   
-   padding-top: 260px;
+   padding-top: 160px;
    
 }
 .subcontainers0 h1{
@@ -193,13 +193,14 @@ label {
 /* third container */
 .containers2{
   width: 100%;
+  font-size: 15px;
 }
 .containers2 h2 {
   text-align: center;
 }
 .containers21 {
     margin-top: 30px;
-  height: 40vh;
+  height: 55vh;
   padding: 40px 0;
   background-color: #d1d6e0;
   display: flex;
