@@ -2,19 +2,15 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  /* font-family: "Roboto", sans-serif; */
+  
 }
 
 /* header */
-
-.header {
-  margin: 2% 33%;
-}
-.header h1 {
+header{
   display: flex;
   font-size: 40px;
   text-align: center;
-  padding: 10px;
+  margin: 2% 33%;
   justify-content: center;
   border: 1px solid #eff3f7;
   border-radius: 5px;
@@ -36,9 +32,6 @@
 }
 
 navbar {
-  width: 100%;
-  display: flex;
-
   font-weight: 600;
   font-size: 20px;
 }
@@ -49,23 +42,16 @@ navbar ul {
 navbar ul li {
   padding: 0px 30px;
 }
-.btn1 {
+.btn1 ,.btn2{
   color: white;
   background-color: black;
   padding: 6px 26px;
   border-radius: 5px;
+  border:none;
   margin-right: 10px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-.btn2 {
-  color: white;
-  background-color: #528bbf;
-  padding: 6px 20px;
-  border: 1px solid #528bbf;
-  border-radius: 5px;
-  margin-right: 10px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
+
 
 /* 2.content */
 .subcontainer1 {
@@ -223,18 +209,15 @@ padding-top: 10px;
 
 /* footer */
 
-.footer{
+footer{
   width: 100%;
     padding: 70px;
     background-color: #71a8db;
     font-weight: 600;
-    
-}
-.footer h1{
     font-size: 40px;
     padding-bottom: 20px;
 }
-.footer p{
+footer p{
     font-size: 20px;
     padding-left: 18px;
 }
